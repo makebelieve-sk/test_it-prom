@@ -1,0 +1,58 @@
+@import "../base/module";
+
+%for_button {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid $grey;
+    color: $white;
+    @extend %for-font;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+%for_min-height {
+    position: relative;
+    border: 1px solid $lg;
+}
+
+.list-block {
+    width: 20%;
+    @extend %for_min-height;
+
+    .button-in-list {
+        width: 100%;
+        @extend %for_button
+    }
+}
+
+.wrapper-table {
+    width: 80%;
+    margin: 0 auto;
+    color: $white;
+    @extend %for_min-height; 
+    
+    .table {
+        width: 100%;
+
+        .table-td {   
+            @extend %for_button;
+            border: 1px solid $lg;
+        }
+    
+        .edit-mode-hidden {
+            visibility: hidden;
+            margin: 0;
+            display: none;;
+        }
+        .edit-mode-visible {
+            visibility: visible;
+        } 
+        .table-tr_create {
+            width: 100%;
+            @extend %for_button;
+            border: 1px solid $lg;
+        }
+    }
+}

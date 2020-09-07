@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellComponent correctly rendering 1`] = `
+<td
+  onClick={[MockFunction]}
+>
+  <form
+    className="edit-mode-editMode"
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+      value="some string"
+    />
+  </form>
+</td>
+`;

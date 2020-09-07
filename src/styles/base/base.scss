@@ -1,0 +1,16 @@
+$fontFamily: 'Open Sans Regular', sans-serif;
+$fontSize: 20px;
+$lineHeight: 20px;
+
+$white: #ffffff;
+$lightBlue: #59c2e6;
+$blue: #007BFF;
+$dark: #31353D;
+$grey: #808080;
+$lg: lightgrey;
+$do: darkorange;
+
+%for-font {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}

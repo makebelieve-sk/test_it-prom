@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainBlock correctly rendering 1`] = `
+<div
+  className="main-block"
+>
+  <div
+    className="list-block"
+  >
+    <div
+      className="button-in-list"
+      onClick={[Function]}
+    >
+      Профессии
+    </div>
+    <div
+      className="button-in-list"
+      onClick={[Function]}
+    >
+      Отделы
+    </div>
+    <div
+      className="button-in-list"
+      onClick={[Function]}
+    >
+      Сотрудники
+    </div>
+  </div>
+</div>
+`;

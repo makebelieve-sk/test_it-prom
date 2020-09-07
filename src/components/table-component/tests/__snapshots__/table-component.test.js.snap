@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableComponent correctly rendering with props 1`] = `
+<div
+  className="table"
+>
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        onDoubleClick={[Function]}
+        onMouseDown={[Function]}
+      >
+        <td
+          onClick={null}
+        >
+          1
+          <form
+            className="edit-mode-hidden"
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="text"
+              value="1"
+            />
+          </form>
+        </td>
+      </tr>
+      <tr
+        onDoubleClick={[Function]}
+        onMouseDown={[Function]}
+      >
+        <td
+          onClick={null}
+        >
+          2
+          <form
+            className="edit-mode-hidden"
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="text"
+              value="2"
+            />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td
+          onClick={[Function]}
+        >
+          Создать
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
